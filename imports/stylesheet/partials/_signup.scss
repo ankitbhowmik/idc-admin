@@ -1,0 +1,56 @@
+.signup{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.mateSignImgPart{
+    flex-basis: 50%;
+    
+    .mateSignImgContainer{
+        width: 100%;
+        height:auto;
+    }
+}
+
+.mateSignInContentPart{
+    flex-grow:1;
+    height:100%;
+    padding: 70px;
+    background-color: rgb(243, 251, 255);
+    border-left:1px solid rgb(217, 221, 246);
+    
+    .mateSignInPageGreet h1{
+        font-size: 3.8rem;
+        font-weight: 100;
+        margin-bottom: 18px;
+        text-transform: capitalize;
+    }
+
+    .mateLoginSubmitText{
+        margin: 60px 0;
+        color: rgb(161, 166, 168);
+    }
+}
+
+.mateLoginButton {
+    width: 100%;
+    text-align: center;
+    
+    button{
+        border: none;
+        background-color: transparent;
+        color: #3949ab;
+        padding: 16px 32px;
+        font-size: 1.4rem;
+        border-bottom: 2px solid rgb(57, 73, 171);
+    }
+}
+
+
+@media (max-width:948px) {
+    .mateSignImgPart{
+        display:none;
+    }
+}
