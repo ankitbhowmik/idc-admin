@@ -6,6 +6,8 @@ import App from "./App";
 import { configureStore } from "./redux/store";
 
 const Main = ()=>{
+    return <div className="loading"/>
+    
     return (
         <Provider store={configureStore()}>
             <Suspense fallback={<div className="loading" />}>
