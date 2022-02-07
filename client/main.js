@@ -1,5 +1,7 @@
 import {Meteor} from "meteor/meteor" ;
 
+import '/imports/common/dynamicImports';
+
 Meteor.startup(()=>{
-  require("./src/index.js");
+  require("../imports/src/index.js");
 })
